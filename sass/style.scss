@@ -143,13 +143,43 @@ body{
     }
 
     .hero-bracket-img{
-        margin-bottom: 75px;
+        margin-bottom: 65px;
 
         img{
             width: 185px;
             height: auto;
-        }     
+        }
+
+        p{
+            font-size: 200px;
+            font-weight: 100;
+            transform: rotate(270deg);
+
+        }
     }
 
+    .main-btn{
+        border-color: transparent;
+        background-color: $main-yellow;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 22px 52px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+        transition-property: transform, opacity;
+    }
+
+    .main-btn:hover{
+        // transform: scale(1.2);
+        opacity: 0.8;
+    }
 }
 /* End of hero section */
+
+/* Start of about section */
+.about-section{
+    min-height: 100vh;
+}
+/* End of about section */

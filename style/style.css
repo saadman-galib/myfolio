@@ -113,7 +113,7 @@ body {
 }
 
 .hero-section .hero-bracket-img {
-  margin-bottom: 75px;
+  margin-bottom: 65px;
 }
 
 .hero-section .hero-bracket-img img {
@@ -121,4 +121,33 @@ body {
   height: auto;
 }
 
+.hero-section .hero-bracket-img p {
+  font-size: 200px;
+  font-weight: 100;
+  transform: rotate(270deg);
+}
+
+.hero-section .main-btn {
+  border-color: transparent;
+  background-color: #cfc91d;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 22px 52px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  transition-property: transform, opacity;
+}
+
+.hero-section .main-btn:hover {
+  opacity: 0.8;
+}
+
 /* End of hero section */
+/* Start of about section */
+.about-section {
+  min-height: 100vh;
+}
+
+/* End of about section */
