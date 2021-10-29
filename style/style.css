@@ -117,14 +117,8 @@ body {
 }
 
 .hero-section .hero-bracket-img img {
-  width: 185px;
+  width: 155px;
   height: auto;
-}
-
-.hero-section .hero-bracket-img p {
-  font-size: 200px;
-  font-weight: 100;
-  transform: rotate(270deg);
 }
 
 .hero-section .main-btn {
@@ -147,7 +141,77 @@ body {
 /* End of hero section */
 /* Start of about section */
 .about-section {
-  min-height: 100vh;
+  min-height: 50vh;
+}
+
+.about-section .about-title {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.about-section .about-title h1 {
+  color: #02918c;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.about-section .about-title h5 {
+  color: #7e8287;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-section .about-title p {
+  color: #7e8287;
+  font-size: 20px;
+  line-height: 43px;
+}
+
+.about-section .about-title p span {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.about-section .about-work {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.about-section .about-work .work {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.about-section .about-work .work h2 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #7e8287;
+}
+
+.about-section .about-work .work p {
+  color: #7e8287;
+}
+
+.about-section .about-work .work:nth-child(1),
+.about-section .about-work .work:nth-child(3) {
+  border-right: 2px solid #000;
+  border-color: #7e8287;
+}
+
+.about-section .about-work .work:nth-child(2) {
+  border-right: 1px solid #000;
+  border-color: #7e8287;
 }
 
 /* End of about section */
