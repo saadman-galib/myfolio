@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+// Variables
+$main-yellow: #cfc91d;
+$main-blue: #02918c;
+$main-white: #fff;
+$main-grey: #f0f0e8; // for third section
+$secondary-grey: #7e8287; // for heading 2nd section
+// $secondary-grey-second: #;
+$third-grey: #222324; // for footer
+$fourth-grey: #898989; // for footer 
+$main-black: #000;
+$secondary-black: #0b0b0b;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Start of navbar */
+.nav{
+    // padding: 25px;
+    background-color: #02918c;
+    width: 50%;
+    min-height: 100px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    // margin: auto;
+    padding: 0 95px;
+}
+
+.navbar{
+    // width: 50%;
+    display: inline-block;
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    // margin-right:;
+    // justify-content: center;
+    h2{
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: $main-white;
+        background-color: $main-blue;
+        display: inline-block;
+    }
+
+    span{
+        color: $main-yellow;
+    }
+    display: none;
+}
+
+.nav-items{
+    margin-left: auto;
+    margin-right: auto;
+    // width: 50%;
+    float: right;
+    // background-color: $main-blue;
+    // display: inline-block;
+    position: relative;
+    bottom: 100px;
+    ul{
+        // display: inline-block;
+        float: right;
+        margin-left: auto;
+        // position: relative;
+        // top: 50px;
+        li{
+            display: inline-block;
+            // float: ;
+            a{
+                float: left;
+                text-decoration: none;
+                color: $main-white;
+                font-weight: 700;
+                letter-spacing: 1.3px;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+
+        }
+        li:not(:last-child){
+            margin-right: 45px;
+        }
+    }
+}
+/* End of navbar */
+
+/* Start of hero section */
+
+/* End of hero section */
