@@ -21,7 +21,7 @@ $secondary-black: #0b0b0b;
 
 body{
     font-family: 'Open Sans', sans-serif;
-}
+}/* of credit*/
 
 /* Start of navbar */
 .nav{
@@ -43,7 +43,7 @@ body{
     margin-right: 0;
     margin-left: 0;
     // margin-right:;
-    // justify-content: center;
+    // justify-content:/* of credit*/ center;
     h2{
         font-size: 35px;
         text-transform: uppercase;
@@ -57,7 +57,7 @@ body{
     span{
         color: $main-yellow;
     }
-    display: none;
+    // display: none;
 }
 
 .nav-items{
@@ -97,7 +97,7 @@ body{
             margin-right: 45px;
         }
     }
-    display: none;
+    // display: none;
 }
 
 // nav{
@@ -327,4 +327,117 @@ body{
 
 /* End of services section */
 /* Start of my work section */
+.my-work-title{
+    margin-bottom: 100px;
+}
+
+.my-works-container{
+    // display: -ms-grid;
+    // display: grid;
+    // columns: 4;
+    // -ms-grid-row: repeat(4, 1fr);
+    // grid-row: repeat(4, 1fr);
+    // // grid-row: 4;
+    // -ms-grid-column: repeat(2, 1fr);
+    // grid-column: repeat(2, 1fr);
+    // // grid-template-columns: repeat(2, 1fr);
+    // // grid-template-rows: repeat(4, 1fr);
+    // grid-auto-flow: column;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .my-work{
+        height: 352px;
+        width: 475px;
+        cursor: pointer;
+        // width: auto;
+    }
+
+    .my-work:nth-child(1){
+        background: url('../images/01.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(2){
+        background: url('../images/02.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(3){
+        background: url('../images/03.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(4){
+        background: url('../images/04.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(5){
+        background: url('../images/05.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(6){
+        background: url('../images/06.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(7){
+        background: url('../images/07.png') no-repeat center/cover;
+    }
+
+    .my-work:nth-child(8){
+        background: url('../images/08.png') no-repeat center/cover;
+    }
+
+    .blue-div{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        justify-items: center;
+        flex-direction: column;
+        color: $main-white;
+        background-color: $main-blue;
+        opacity: 0.9;
+        transform: scale(0);
+        transition: 0.3s eas-in;
+        transition-property: transform;
+
+        h4{
+            font-size: 25px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+    }
+
+    .my-work:hover > .blue-div{
+        transform: scale(1);
+    }
+}
 /* End of my work section */
+/* Start of contact section */
+.contact-form-container{
+    height: 100vh;
+    width: 100%;
+    background-color: $third-grey;
+}
+
+/* End of contact section */
+/* start of credit*/
+.credit{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-black;
+    color: $secondary-grey;
+
+    p{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+/* end of credit*/
