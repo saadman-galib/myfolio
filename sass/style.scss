@@ -27,7 +27,7 @@ body{
 .nav{
     // padding: 25px;
     background-color: #02918c;
-    width: 50%;
+    // width: 50%;
     min-height: 100px;
     display: flex;
     // justify-content: center;
@@ -37,11 +37,12 @@ body{
 }
 
 .navbar{
-    // width: 50%;
+    width: 20%;
     display: inline-block;
     display: flex;
     margin-right: 0;
     margin-left: 0;
+
     // margin-right:;
     // justify-content:/* of credit*/ center;
     h2{
@@ -57,13 +58,15 @@ body{
     span{
         color: $main-yellow;
     }
+
+    // position: sticky;
     // display: none;
 }
 
 .nav-items{
     margin-left: auto;
     margin-right: auto;
-    // width: 50%;
+    width: 80%;
     float: right;
     // background-color: $main-blue;
     // display: inline-block;
@@ -97,6 +100,7 @@ body{
             margin-right: 45px;
         }
     }
+    // position: sticky;
     // display: none;
 }
 
@@ -462,7 +466,7 @@ body{
 
         .fourth-input::placeholder{
             display: none;
-            
+
         }
 
         .third-input, 
