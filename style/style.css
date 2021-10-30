@@ -403,6 +403,10 @@ body {
   text-transform: uppercase;
 }
 
+.contact-form-container form .fourth-input::placeholder {
+  display: none;
+}
+
 .contact-form-container form .third-input,
 .contact-form-container form .fourth-input {
   width: 1370px;

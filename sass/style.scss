@@ -460,6 +460,11 @@ body{
             text-transform: uppercase;
         }
 
+        .fourth-input::placeholder{
+            display: none;
+            
+        }
+
         .third-input, 
         .fourth-input{
             width: 1370px;
