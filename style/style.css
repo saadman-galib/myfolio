@@ -120,7 +120,7 @@ body {
   height: auto;
 }
 
-.hero-section .main-btn {
+.main-btn {
   border-color: transparent;
   background-color: #cfc91d;
   font-size: 20px;
@@ -133,7 +133,7 @@ body {
   transition-property: transform, opacity;
 }
 
-.hero-section .main-btn:hover {
+.main-btn:hover {
   opacity: 0.8;
 }
 
@@ -364,6 +364,52 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #222324;
+}
+
+.contact-form-container form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form-container form .first-input {
+  margin-top: 75px;
+}
+
+.contact-form-container form input {
+  width: 950px;
+  height: 80px;
+  background-color: transparent;
+  outline: none;
+  caret-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom-color: #898989;
+  font-size: 20px;
+  color: #898989;
+}
+
+.contact-form-container form input:not(:last-child) {
+  margin-bottom: 65px;
+}
+
+.contact-form-container form input::placeholder {
+  text-align: center;
+  font-size: 20px;
+  color: #898989;
+  text-transform: uppercase;
+}
+
+.contact-form-container form .third-input,
+.contact-form-container form .fourth-input {
+  width: 1370px;
+}
+
+.contact-form-container form button {
+  margin-top: 45px;
 }
 
 /* End of contact section */

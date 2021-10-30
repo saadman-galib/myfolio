@@ -151,23 +151,24 @@ body{
         }
     }
 
-    .main-btn{
-        border-color: transparent;
-        background-color: $main-yellow;
-        font-size: 20px;
-        font-weight: 800;
-        padding: 22px 52px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: 0.3s ease-in;
-        transition-property: transform, opacity;
-    }
+}
 
-    .main-btn:hover{
-        // transform: scale(1.2);
-        opacity: 0.8;
-    }
+.main-btn{
+    border-color: transparent;
+    background-color: $main-yellow;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 22px 52px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    transition-property: transform, opacity;
+}
+
+.main-btn:hover{
+    // transform: scale(1.2);
+    opacity: 0.8;
 }
 /* End of hero section */
 
@@ -422,6 +423,52 @@ body{
     height: 100vh;
     width: 100%;
     background-color: $third-grey;
+    form{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+
+        .first-input{
+            margin-top: 75px;
+        }
+
+        input{
+            width: 950px;
+            height: 80px;
+            background-color: transparent;
+            outline: none;
+            caret-color: transparent;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom-color: $fourth-grey;
+            font-size: 20px;
+            color: $fourth-grey;                        
+        }
+
+        input:not(:last-child){
+            margin-bottom: 65px;
+        }
+
+        input::placeholder{
+            text-align: center;
+            font-size: 20px;
+            color: $fourth-grey;
+            text-transform: uppercase;
+        }
+
+        .third-input, 
+        .fourth-input{
+            width: 1370px;
+        }
+
+        button{
+            margin-top: 45px;
+        }
+    }
 }
 
 /* End of contact section */
