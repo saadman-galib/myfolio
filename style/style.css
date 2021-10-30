@@ -10,65 +10,44 @@ body {
   width: 1920px;
 }
 
-/* of credit*/
 /* Start of navbar */
-.nav {
+.nav-container {
+  padding: 25px;
   background-color: #02918c;
+  width: 100%;
   min-height: 100px;
+}
+
+.nav-title {
+  min-height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 95px;
 }
 
-.navbar {
-  width: 20%;
+.nav-title h2 {
   display: inline-block;
-  display: flex;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.navbar h2 {
-  font-size: 35px;
   text-transform: uppercase;
+  color: #fff;
   font-weight: 800;
   letter-spacing: 1px;
-  color: #fff;
-  background-color: #02918c;
-  display: inline-block;
+  font-size: 35px;
 }
 
-.navbar span {
+.nav-title h2 span {
   color: #cfc91d;
 }
 
 .nav-items {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.nav-items ul {
-  float: right;
-  margin-left: auto;
-}
-
-.nav-items ul li {
   display: inline-block;
 }
 
-.nav-items ul li a {
+.nav-items ul li {
   float: left;
+  list-style: none;
+}
+
+.nav-items ul li a {
   text-decoration: none;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 1.3px;
-  font-size: 20px;
-  text-transform: uppercase;
 }
 
 .nav-items ul li:not(:last-child) {
@@ -385,7 +364,6 @@ body {
   height: 80px;
   background-color: transparent;
   outline: none;
-  caret-color: transparent;
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;

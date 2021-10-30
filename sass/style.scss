@@ -22,92 +22,148 @@ $secondary-black: #0b0b0b;
 body{
     font-family: 'Open Sans', sans-serif;
     width: 1920px;
-}/* of credit*/
-
-/* Start of navbar */
-.nav{
-    // padding: 25px;
-    background-color: #02918c;
-    // width: 50%;
-    min-height: 100px;
-    display: flex;
-    // justify-content: center;
-    align-items: center;
-    // margin: auto;
-    padding: 0 95px;
 }
 
-.navbar{
-    width: 20%;
-    display: inline-block;
-    display: flex;
-    margin-right: 0;
-    margin-left: 0;
+/* Start of navbar */
+// .nav{
+//     // padding: 25px;
+//     background-color: #02918c;
+//     // width: 50%;
+//     min-height: 100px;
+//     display: flex;
+//     // justify-content: center;
+//     align-items: center;
+//     // margin: auto;
+//     padding: 0 95px;
+// }
 
-    // margin-right:;
-    // justify-content:/* of credit*/ center;
+// .navbar{
+//     width: 20%;
+//     display: inline-block;
+//     display: flex;
+//     margin-right: 0;
+//     margin-left: 0;
+
+//     // margin-right:;
+//     // justify-content:/* of credit*/ center;
+//     h2{
+//         font-size: 35px;
+//         text-transform: uppercase;
+//         font-weight: 800;
+//         letter-spacing: 1px;
+//         color: $main-white;
+//         background-color: $main-blue;
+//         display: inline-block;
+//     }
+
+//     span{
+//         color: $main-yellow;
+//     }
+
+//     // position: sticky;
+//     // display: none;
+// }
+
+// .nav-items{
+//     z-index: -1;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 100%;
+//     float: right;
+//     // background-color: $main-blue;
+//     // display: inline-block;
+//     // position: relative;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     // bottom: 100px;
+    
+//     ul{
+//         // display: inline-block;
+//         float: right;
+//         margin-left: auto;
+//         // position: relative;
+//         // top: 50px;
+//         li{
+//             display: inline-block;
+//             // float: ;
+//             a{
+//                 float: left;
+//                 text-decoration: none;
+//                 color: $main-white;
+//                 font-weight: 700;
+//                 letter-spacing: 1.3px;
+//                 font-size: 20px;
+//                 text-transform: uppercase;
+//                 cursor: pointer;
+//             }
+
+//         }
+//         li:not(:last-child){
+//             margin-right: 45px;
+//         }
+//     }
+//     // position: sticky;
+//     // display: none;
+// }
+
+// // nav{
+//     // display: none;
+// // }
+
+.nav-container{
+    padding: 25px;
+    background-color: #02918c;
+    width: 100%;
+    min-height: 100px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.nav-title{
+    // width: 20px;
+    min-height: 100%;
+     display: flex;
+    align-items: center;
+    // justify-content: center;
+
     h2{
-        font-size: 35px;
+        display: inline-block;
+        // width: 20px;
         text-transform: uppercase;
+        color: $main-white;
         font-weight: 800;
         letter-spacing: 1px;
-        color: $main-white;
-        background-color: $main-blue;
-        display: inline-block;
-    }
+        font-size: 35px;
 
-    span{
-        color: $main-yellow;
+        span{
+            color: $main-yellow;
+        }
     }
-
-    // position: sticky;
-    // display: none;
 }
 
 .nav-items{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    float: right;
-    // background-color: $main-blue;
-    // display: inline-block;
-    // position: relative;
-    position: absolute;
-    top: 0;
-    right: 0;
-    // bottom: 100px;
-    
+    display: inline-block;
+    // float: right;
     ul{
-        // display: inline-block;
-        float: right;
-        margin-left: auto;
-        // position: relative;
-        // top: 50px;
         li{
-            display: inline-block;
-            // float: ;
-            a{
-                float: left;
-                text-decoration: none;
-                color: $main-white;
-                font-weight: 700;
-                letter-spacing: 1.3px;
-                font-size: 20px;
-                text-transform: uppercase;
-            }
+            float: left;
+            list-style: none;
 
+            a{
+                text-decoration: none;
+            }
         }
+
         li:not(:last-child){
             margin-right: 45px;
+
         }
+        
     }
-    // position: sticky;
-    // display: none;
 }
 
-// nav{
-    // display: none;
-// }
 /* End of navbar */
 
 /* Start of hero section */
@@ -445,7 +501,7 @@ body{
             height: 80px;
             background-color: transparent;
             outline: none;
-            caret-color: transparent;
+            // caret-color: transparent;
             border-top: transparent;
             border-left: transparent;
             border-right: transparent;
