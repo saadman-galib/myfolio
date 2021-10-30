@@ -261,6 +261,8 @@ body{
 /* Start of about section */
 .about-section{
     min-height: 50vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
     .about-title{
         text-align: center;
@@ -579,3 +581,5 @@ body{
     }
 }
 /* end of credit*/
+
+/* Responsive design */
