@@ -18,8 +18,7 @@ body {
   padding: 25px;
   background-color: #02918c;
   width: 100%;
-  min-height: 100px;
-  position: -webkit-sticky;
+  height: 100px;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -69,7 +68,6 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: 0.3s ease-in all;
 }
 
 .nav-items ul li:not(:last-child) {
@@ -80,7 +78,7 @@ body {
 /* Start of hero section */
 .hero-section {
   width: 100%;
-  height: 120vh;
+  min-height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +86,7 @@ body {
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.021), rgba(0, 0, 0, 0.021)), url("../images/Image.png") no-repeat center/cover;
   color: #fff;
+  margin-top: 100px;
 }
 
 .hero-section .hero-title {
@@ -227,7 +226,7 @@ body {
 /* Start of services section */
 .services-section {
   background: url("../images/Image 02.png") no-repeat center/cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .services-section .services-container {
@@ -349,7 +348,7 @@ body {
   background-color: #02918c;
   opacity: 0.9;
   transform: scale(0);
-  transition: 0.3s eas-in;
+  transition: 0.3s ease-in;
   transition-property: transform;
 }
 
@@ -366,7 +365,7 @@ body {
 /* End of my work section */
 /* Start of contact section */
 .contact-form-container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #222324;
 }
@@ -439,3 +438,122 @@ body {
 
 /* end of credit*/
 /* Responsive design */
+/* media queries */
+@media (min-width: 1921px) {
+  body {
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-container {
+    width: 1920px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .nav-container {
+    height: 80px;
+    padding: 20px 30px;
+  }
+  .nav-title h2 {
+    font-size: 30px;
+  }
+  .nav-items {
+    height: 80px;
+  }
+  .nav-items ul li a {
+    font-size: 16px;
+  }
+  .hero-section {
+    margin-top: 80px;
+  }
+  .hero-section .hero-title {
+    margin-bottom: 85px;
+  }
+  .hero-section .hero-title h2 {
+    font-size: 45px;
+  }
+  .hero-section .hero-title h1 {
+    font-size: 90px;
+    letter-spacing: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .hero-section .hero-title h3 {
+    font-size: 23px;
+  }
+  .hero-section .hero-bracket-img img {
+    width: 130px;
+  }
+  .about-section .about-title h1 {
+    font-size: 65px;
+  }
+  .about-section .about-title h5 {
+    font-size: 18px;
+  }
+  .about-section .about-title p {
+    font-size: 18px;
+  }
+  .about-section .about-title p span {
+    font-size: 24.5px;
+  }
+  .about-section .about-work .work {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .about-section .about-work .work img {
+    width: 38px;
+  }
+  .about-section .about-work .work h2 {
+    font-size: 22px;
+  }
+  .about-section .about-work .work p {
+    font-size: 15px;
+  }
+  .services-section .services-container {
+    padding: 90px 70px;
+    width: 69.8%;
+  }
+  .services-section .services-container .services-title h1 {
+    font-size: 65px;
+  }
+  .services-section .services-container .services-title h5 {
+    font-size: 18px;
+  }
+  .services-section .services-container .services-title p {
+    font-size: 18px;
+  }
+  .services-section .services-container .services-work .service img {
+    width: 38px;
+  }
+  .services-section .services-container .services-work .service h2 {
+    font-size: 22px;
+  }
+  .services-section .services-container .services-work .service p {
+    font-size: 15px;
+  }
+  .my-works-container .my-work {
+    width: 400px;
+    height: 296px;
+  }
+  .my-works-container .blue-div h4 {
+    font-size: 23px;
+  }
+  .my-works-container .blue-div p {
+    font-size: 16px;
+  }
+  .contact-form-container {
+    padding-bottom: 55px;
+  }
+  .contact-form-container form input {
+    width: 745px;
+    font-size: 18px;
+  }
+  .contact-form-container form input::placeholder {
+    font-size: 18px;
+  }
+  .contact-form-container form .third-input,
+  .contact-form-container form .fourth-input {
+    width: 980px;
+  }
+}
