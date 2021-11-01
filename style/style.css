@@ -485,6 +485,12 @@ body {
   .hero-section .hero-bracket-img img {
     width: 130px;
   }
+  .about-section {
+    min-height: 20vh !important;
+  }
+  .about-section .about-title {
+    margin-top: 40px;
+  }
   .about-section .about-title h1 {
     font-size: 65px;
   }
@@ -532,6 +538,9 @@ body {
   .services-section .services-container .services-work .service p {
     font-size: 15px;
   }
+  .my-work-title {
+    margin-bottom: 60px;
+  }
   .my-works-container .my-work {
     width: 400px;
     height: 296px;
@@ -555,5 +564,125 @@ body {
   .contact-form-container form .third-input,
   .contact-form-container form .fourth-input {
     width: 980px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+  .hero-section .hero-title {
+    margin-bottom: 55px;
+  }
+  .hero-section .hero-title h2 {
+    font-size: 35px;
+  }
+  .hero-section .hero-title h1 {
+    font-size: 65px;
+    letter-spacing: 12px;
+  }
+  .hero-section .hero-title h3 {
+    font-size: 20px;
+  }
+  .hero-section .hero-bracket-img {
+    margin-bottom: 45px;
+  }
+  .hero-section .hero-bracket-img img {
+    width: 100px;
+  }
+  .main-btn {
+    font-size: 16px;
+    padding: 14px 35px;
+  }
+  .about-section {
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  .about-section .about-title h1 {
+    font-size: 55px;
+  }
+  .about-section .about-title h5 {
+    font-size: 16px;
+  }
+  .about-section .about-title p {
+    font-size: 16px;
+  }
+  .about-section .about-title p span {
+    font-size: 19.5px;
+  }
+  .about-section .about-work .work {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .about-section .about-work .work img {
+    width: 28px;
+  }
+  .about-section .about-work .work h2 {
+    font-size: 18px;
+  }
+  .about-section .about-work .work p {
+    font-size: 13px;
+  }
+  .services-section {
+    min-height: 80vh;
+  }
+  .services-section .services-container {
+    width: 49.8%;
+  }
+  .services-section .services-container .services-title br {
+    display: none;
+  }
+  .services-section .services-container .services-title h1 {
+    font-size: 55px;
+  }
+  .services-section .services-container .services-title h5 {
+    font-size: 16px;
+  }
+  .services-section .services-container .services-title p {
+    font-size: 16px;
+  }
+  .services-section .services-container .services-work .service img {
+    width: 38px;
+  }
+  .services-section .services-container .services-work .service h2 {
+    font-size: 22px;
+  }
+  .services-section .services-container .services-work .service p {
+    font-size: 15px;
+  }
+  .my-works-container .my-work {
+    width: 300px;
+    height: 222px;
+  }
+  .my-works-container .blue-div h4 {
+    font-size: 19px;
+  }
+  .my-works-container .blue-div p {
+    font-size: 14px;
+  }
+  .contact-form-container {
+    min-height: 80vh;
+  }
+  .contact-form-container form input {
+    width: 500px;
+    font-size: 16px;
+  }
+  .contact-form-container form .third-input,
+  .contact-form-container form .fourth-input {
+    width: 745px;
+  }
+  .contact-form-container form input:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .contact-form-container form input::placeholder {
+    font-size: 16px;
+  }
+  .credit {
+    min-height: 70px;
+  }
+  .credit p {
+    font-size: 15px;
   }
 }

@@ -629,7 +629,7 @@ body{
 
     .hero-section{
         margin-top: 80px;
-        
+
         .hero-title{
             margin-bottom: 85px;
 
@@ -659,7 +659,11 @@ body{
     }
 
     .about-section{
+        min-height: 20vh !important;
+        
         .about-title{
+            margin-top: 40px;
+
             h1{
                 font-size: 65px;
             }
@@ -734,6 +738,10 @@ body{
         }
     }
 
+    .my-work-title{
+        margin-bottom: 60px;
+    }
+
     .my-works-container{
         .my-work{
             width: 400px;
@@ -741,13 +749,12 @@ body{
         }
 
         .blue-div{
+            h4{
+                font-size: 23px;
+            }
 
-                h4{
-                    font-size: 23px;
-                }
-
-                p{
-                    font-size: 16px;
+            p{
+                font-size: 16px;
             }
         }
     }
@@ -771,4 +778,178 @@ body{
             }
         }
     }
+}
+
+@media (max-width: 1024px) {
+    // *{display: none;}
+    .hero-section{
+        min-height: 80vh;
+
+        .hero-title{
+            margin-bottom: 55px;
+
+            h2{
+                font-size: 35px;
+            }
+
+            h1{
+                font-size: 65px;
+                letter-spacing: 12px;
+            }
+
+            h3{
+                font-size: 20px;
+            }
+        }
+
+        .hero-bracket-img{
+            margin-bottom: 45px;
+
+            img{
+                width: 100px;
+            }
+        }
+    }
+
+    .main-btn{
+        font-size: 16px;
+        padding: 14px 35px;
+    }
+
+    .about-section{
+        padding-top: 15px;
+        padding-bottom: 5px;
+
+        .about-title{
+            h1{
+                font-size: 55px;
+            }
+
+            h5{
+                font-size: 16px;
+            }
+
+            p{
+                font-size: 16px;
+
+                span{
+                    font-size: 19.5px;
+                }
+            }
+        }
+
+        .about-work{
+            .work{
+                padding-left: 45px;
+                padding-right: 45px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+
+                img{
+                    width: 28px;
+                }
+
+                h2{
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .services-section{
+        min-height: 80vh;
+
+        .services-container{
+            width: 49.8%;
+
+            .services-title{
+                br{
+                    display: none;
+                }
+
+                h1{
+                    font-size: 55px;
+                }
+
+                h5{
+                    font-size: 16px;
+                }
+
+                p{
+                    font-size: 16px;
+                }
+            }
+
+            .services-work{
+                .service{
+                    img{
+                        width: 38px;
+                    }
+
+                    h2{
+                        font-size: 22px;
+                    }
+
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .my-works-container{
+        .my-work{
+            width: 300px;
+            height: 222px;
+        }
+
+        .blue-div{
+            h4{
+                font-size: 19px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .contact-form-container{
+        min-height: 80vh;
+        // padding-bottom: 75px;
+
+        form{
+            input{
+                width: 500px;
+                font-size: 16px;
+            }
+
+            .third-input, 
+            .fourth-input{
+                width: 745px;
+            }
+
+            input:not(:last-child){
+                margin-bottom: 35px;
+            }
+
+            input::placeholder{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .credit{
+        min-height: 70px;
+
+        p{
+            font-size: 15px;
+        }
+    }
+    
 }
