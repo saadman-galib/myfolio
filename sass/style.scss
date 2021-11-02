@@ -964,23 +964,28 @@ body{
         width: 100%;
     }
 
+    .nav-container{
+        width: 100vw;
+    }
+
     .nav-btn{
         display: block;
         float: right;
         margin-left: auto;
         font-size: 30px;
         color: $main-white;
+        // margin-right: 25px;
     }
 
     .nav-items{
+        width: 100vw;
         position: relative;
         flex-direction: row;
         // align-items: center;
         justify-content: center;
         text-align: center;
-        width: 102vmax;
-        right: -30px;
-        top: 19px;
+        right: 100vw;
+        top: 17px;
         background-color: $main-blue;
         min-height: 100px;
         height: auto;

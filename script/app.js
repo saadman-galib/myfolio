@@ -6,11 +6,11 @@ var navListContainer = document.querySelector('.nav-items')
 
 navBtn.addEventListener("click", function(){
     // console.log('Hi')
-    if (navListContainer.style.right == '900px'){
+    if (navListContainer.style.right == '100vw'){
         navListContainer.style.right = '-30px';
     }
 
     else{
-        navListContainer.style.right = "900px";
+        navListContainer.style.right = "100vw";
     }
 });

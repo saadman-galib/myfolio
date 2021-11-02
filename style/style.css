@@ -695,6 +695,9 @@ body {
   .nav-title {
     width: 100%;
   }
+  .nav-container {
+    width: 100vw;
+  }
   .nav-btn {
     display: block;
     float: right;
@@ -703,13 +706,13 @@ body {
     color: #fff;
   }
   .nav-items {
+    width: 100vw;
     position: relative;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    width: 102vmax;
-    right: -30px;
-    top: 19px;
+    right: 100vw;
+    top: 17px;
     background-color: #02918c;
     min-height: 100px;
     height: auto;
