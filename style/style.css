@@ -45,6 +45,10 @@ body {
   color: #cfc91d;
 }
 
+.nav-btn {
+  display: none;
+}
+
 .nav-items {
   height: 100px;
   float: right;
@@ -684,5 +688,44 @@ body {
   }
   .credit p {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-title {
+    width: 100%;
+  }
+  .nav-btn {
+    display: block;
+    float: right;
+    margin-left: auto;
+    font-size: 30px;
+    color: #fff;
+  }
+  .nav-items {
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 102vmax;
+    right: -30px;
+    top: 19px;
+    background-color: #02918c;
+    min-height: 100px;
+    height: auto;
+    transition: 0.3s right ease;
+  }
+  .nav-items ul li {
+    float: none;
+  }
+  .nav-items ul li:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .nav-items ul li:first-child {
+    margin-top: 30px;
+  }
+  .nav-items ul li:last-child {
+    margin-bottom: 30px;
   }
 }
