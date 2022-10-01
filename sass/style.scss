@@ -553,7 +553,7 @@ body {
             border-right: transparent;
             border-bottom-color: $fourth-grey;
             font-size: 28px;
-
+            text-align: center;
             color: $fourth-grey;
         }
 
@@ -742,7 +742,7 @@ body {
                 width: 80%;
                 .service {
                     padding-right: 45px;
-                    padding-bottom: 15px;
+                    padding-bottom: 25px;
 
                     img {
                         width: 38px;
@@ -801,7 +801,39 @@ body {
         }
     }
 }
+@media (max-width: 1150px) {
+    // *{display: none;}
+    .services-section {
+        text-align: center;
+        .services-container {
+            width: 50%;
+            .services-title {
+                h1,
+                h5,
+                p {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
 
+            .services-work {
+                width: 100%;
+
+                .service {
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    img,
+                    h2,
+                    p {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+}
 @media (max-width: 1024px) {
     // *{display: none;}
 

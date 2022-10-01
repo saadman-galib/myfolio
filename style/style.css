@@ -353,6 +353,7 @@ body {
   border-right: transparent;
   border-bottom-color: #898989;
   font-size: 28px;
+  text-align: center;
   color: #898989;
 }
 .contact-form-container form input:not(:last-child) {
@@ -489,7 +490,7 @@ body {
   }
   .services-section .services-container .services-work .service {
     padding-right: 45px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
   .services-section .services-container .services-work .service img {
     width: 38px;
@@ -526,6 +527,33 @@ body {
   .contact-form-container form .third-input,
 .contact-form-container form .fourth-input {
     width: 980px;
+  }
+}
+@media (max-width: 1150px) {
+  .services-section {
+    text-align: center;
+  }
+  .services-section .services-container {
+    width: 50%;
+  }
+  .services-section .services-container .services-title h1,
+.services-section .services-container .services-title h5,
+.services-section .services-container .services-title p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services-section .services-container .services-work {
+    width: 100%;
+  }
+  .services-section .services-container .services-work .service {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services-section .services-container .services-work .service img,
+.services-section .services-container .services-work .service h2,
+.services-section .services-container .services-work .service p {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 1024px) {
