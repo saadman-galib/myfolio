@@ -808,3 +808,26 @@ body {
     font-size: 15px;
   }
 }
+@media (max-width: 562px) {
+  .about-section .about-work .work:nth-child(1),
+.about-section .about-work .work:nth-child(2),
+.about-section .about-work .work:nth-child(3) {
+    border: none;
+  }
+}
+@media (max-width: 510px) {
+  .hero-section .hero-title h2 {
+    font-size: 20px;
+  }
+  .hero-section .hero-title h1 {
+    font-size: 40px;
+  }
+  .hero-section .hero-title h3 {
+    font-size: 17px;
+  }
+  .main-btn {
+    font-size: 15px;
+    padding: 14px 30px;
+    margin-top: 15px;
+  }
+}

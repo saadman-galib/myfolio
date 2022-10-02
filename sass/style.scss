@@ -1205,6 +1205,40 @@ body {
         }
     }
 }
-
+@media (max-width: 562px) {
+    .about-section {
+        .about-work {
+            .work:nth-child(1),
+            .work:nth-child(2),
+            .work:nth-child(3) {
+                border: none;
+            }
+        }
+    }
+}
 @media (max-width: 510px) {
+    .hero-section {
+        .hero-title {
+            h2 {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h3 {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .main-btn {
+        font-size: 15px;
+        padding: 14px 30px;
+        margin-top: 15px;
+    }
+    
+    .services-container {
+    }
 }
