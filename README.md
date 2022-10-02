@@ -1,16 +1,18 @@
-<h1 align="center">Windows 11</h1>
+<h1 align="center">Myfolio</h1>
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Built With](#built-with)
-- [How to use](#how-to-use)
+- [How To Use](#how-to-use)
+- [Clone this repository](#clone-this-repository)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## Overview
 
-![screenshot](./assets/images/README.jpg)
+![screenshot](./images/README.png)
 
 
 
