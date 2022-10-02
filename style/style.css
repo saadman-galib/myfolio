@@ -387,9 +387,17 @@ body {
   background-color: #0b0b0b;
   color: #7e8287;
 }
+.credit a {
+  text-decoration: none;
+}
 .credit p {
   font-size: 20px;
+  color: #fff;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+.credit p:hover {
+  color: #898989;
 }
 
 /* end of credit*/
@@ -715,10 +723,88 @@ body {
   .nav-items ul li:last-child {
     margin-bottom: 30px;
   }
-  .hero-section .hero-title {
-    margin: auto 25px;
+  .hero-section .hero-title h2 {
+    font-size: 30px;
+  }
+  .hero-section .hero-title h1 {
+    font-size: 60px;
+    margin: 25px auto;
+  }
+  .hero-section .hero-title h3 {
+    font-size: 19px;
+  }
+  .hero-section .hero-bracket-img {
+    margin-bottom: 25px;
+  }
+  .hero-section .hero-bracket-img img {
+    width: 90px;
   }
   .main-btn {
     margin-bottom: 35px;
+  }
+  .about-section .about-title h1 {
+    font-size: 45px;
+  }
+  .about-section .about-title h5 {
+    font-size: 14px;
+  }
+  .about-section .about-title p {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+  }
+  .about-section .about-title p span {
+    font-size: 17px;
+  }
+  .about-section .about-work {
+    flex-wrap: wrap;
+  }
+  .about-section .about-work .work:nth-child(2) {
+    border-right: none;
+  }
+  .about-section .about-work .work:nth-child(1),
+.about-section .about-work .work:nth-child(2) {
+    border-bottom: 2px solid #000;
+    border-color: #7e8287;
+  }
+  .services-section .services-container .services-title h1 {
+    font-size: 45px;
+  }
+  .services-section .services-container .services-title h5 {
+    font-size: 14px;
+  }
+  .services-section .services-container .services-title p {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+  }
+  .services-section .services-container .services-work {
+    width: 100%;
+  }
+  .services-section .services-container .services-work .service {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .services-section .services-container .services-work .service img {
+    margin-left: 50%;
+  }
+  .services-section .services-container .services-work .service h2,
+.services-section .services-container .services-work .service p {
+    width: 120%;
+    text-align: center;
+    padding: auto;
+  }
+  .contact-form-container form input {
+    width: 45%;
+    font-size: 15px;
+  }
+  .contact-form-container form .third-input,
+.contact-form-container form .fourth-input {
+    width: 80%;
+  }
+  .contact-form-container form input::placeholder {
+    font-size: 15px;
   }
 }

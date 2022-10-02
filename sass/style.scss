@@ -594,10 +594,18 @@ body {
     justify-content: center;
     background-color: $secondary-black;
     color: $secondary-grey;
-
+    a {
+        text-decoration: none;
+    }
     p {
         font-size: 20px;
+        color: #fff;
         text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    p:hover {
+        color: #898989;
     }
 }
 /* end of credit*/
@@ -1066,11 +1074,137 @@ body {
 
     .hero-section {
         .hero-title {
-            margin: auto 25px;
+            // margin: auto 0px;
+            h2 {
+                font-size: 30px;
+            }
+
+            h1 {
+                font-size: 60px;
+                margin: 25px auto;
+            }
+
+            h3 {
+                font-size: 19px;
+            }
+        }
+
+        .hero-bracket-img {
+            margin-bottom: 25px;
+            img {
+                width: 90px;
+            }
         }
     }
 
     .main-btn {
         margin-bottom: 35px;
     }
+
+    .about-section {
+        .about-title {
+            h1 {
+                font-size: 45px;
+            }
+
+            h5 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 15px;
+                width: 80%;
+                margin: auto;
+
+                span {
+                    font-size: 17px;
+                }
+            }
+        }
+        .about-work {
+            flex-wrap: wrap;
+
+            .work:nth-child(2) {
+                border-right: none;
+            }
+
+            .work:nth-child(1),
+            .work:nth-child(2) {
+                border-bottom: 2px solid $main-black;
+                border-color: $secondary-grey;
+            }
+        }
+    }
+
+    .services-section {
+        .services-container {
+            .services-title {
+                h1 {
+                    font-size: 45px;
+                }
+
+                h5 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 15px;
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+
+            .services-work {
+                width: 100%;
+
+                .service {
+                    // margin-left: auto;
+                    // margin-right: auto;
+                    padding-bottom: 40px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // img {
+                    //     // transform: translateX(50%);
+                    // }
+
+                    img {
+                        margin-left: 50%;
+                    }
+
+                    h2,
+                    p {
+                        width: 120%;
+                        // margin-left: auto;
+                        // margin-right: auto;
+                        text-align: center;
+                        padding: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-form-container {
+        form {
+            input {
+                width: 45%;
+                // margin: auto;
+                font-size: 15px;
+            }
+
+            .third-input,
+            .fourth-input {
+                width: 80%;
+            }
+
+            input::placeholder {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 510px) {
 }
