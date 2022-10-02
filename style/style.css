@@ -851,3 +851,72 @@ body {
     margin: 15px auto;
   }
 }
+@media (max-width: 374px) {
+  .hero-section .hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-section .hero-title h2,
+.hero-section .hero-title h3,
+.hero-section .hero-title h1 {
+    width: 80%;
+  }
+  .hero-section .hero-title h2 {
+    font-size: 17px;
+  }
+  .hero-section .hero-title h1 {
+    font-size: 38px;
+    letter-spacing: 4px;
+  }
+  .hero-section .hero-title h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .hero-section .hero-bracket-img img {
+    width: 80px;
+  }
+  .main-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-top: 15px;
+  }
+  .about-section .about-title h1 {
+    font-size: 30px;
+  }
+  .about-section .about-title h5 {
+    font-size: 11px;
+  }
+  .about-section .about-title p {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+  }
+  .about-section .about-title p span {
+    font-size: 15px;
+  }
+  .about-section .about-work .work h2 {
+    font-size: 18px;
+  }
+  .about-section .about-work .work p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .services-section .services-container .services-title h1 {
+    font-size: 30px;
+  }
+  .services-section .services-container .services-title h5 {
+    font-size: 11px;
+  }
+  .services-section .services-container .services-title p {
+    font-size: 14px;
+  }
+  .services-section .services-container .services-work .service h2 {
+    font-size: 18px;
+  }
+  .services-section .services-container .services-work .service p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}

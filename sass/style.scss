@@ -1211,10 +1211,10 @@ body {
             .work {
                 margin: auto 5px;
 
-                h2{
+                h2 {
                     font-size: 22px;
-
-                }p{
+                }
+                p {
                     font-size: 15px;
                 }
             }
@@ -1256,11 +1256,120 @@ body {
             padding: 40px;
             width: 80%;
             margin: auto;
-         .services-work{
-            .service{
-                margin: 15px auto;
+            .services-work {
+                .service {
+                    margin: 15px auto;
+                }
             }
-         }   
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .hero-section {
+        .hero-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2,
+            h3,
+            h1 {
+                width: 80%;
+                // margin: 15px auto;
+                // margin-left: auto;
+                // margin-right: auto;
+            }
+
+            h2 {
+                font-size: 17px;
+            }
+
+            h1 {
+                font-size: 38px;
+                letter-spacing: 4px;
+            }
+
+            h3 {
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+
+        .hero-bracket-img {
+            img {
+                width: 80px;
+            }
+        }
+    }
+    .main-btn {
+        font-size: 14px;
+        padding: 8px 20px;
+        margin-top: 15px;
+    }
+    .about-section {
+        .about-title {
+            h1 {
+                font-size: 30px;
+            }
+
+            h5 {
+                font-size: 11px;
+            }
+
+            p {
+                font-size: 14px;
+                width: 80%;
+                margin: auto;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .about-work {
+            .work {
+                h2 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+    .services-section {
+        .services-container {
+            .services-title {
+                h1 {
+                    font-size: 30px;
+                }
+
+                h5 {
+                    font-size: 11px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .services-work {
+                .service {
+                    h2 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                }
+            }
         }
     }
 }
