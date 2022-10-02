@@ -1208,6 +1208,16 @@ body {
 @media (max-width: 562px) {
     .about-section {
         .about-work {
+            .work {
+                margin: auto 5px;
+
+                h2{
+                    font-size: 22px;
+
+                }p{
+                    font-size: 15px;
+                }
+            }
             .work:nth-child(1),
             .work:nth-child(2),
             .work:nth-child(3) {
@@ -1238,7 +1248,19 @@ body {
         padding: 14px 30px;
         margin-top: 15px;
     }
-    
-    .services-container {
+
+    .services-section {
+        background: none;
+
+        .services-container {
+            padding: 40px;
+            width: 80%;
+            margin: auto;
+         .services-work{
+            .service{
+                margin: 15px auto;
+            }
+         }   
+        }
     }
 }
