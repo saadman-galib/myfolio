@@ -1,4 +1,4 @@
-<h1 align="center">Myfolio</h1>
+<h1 align="center">myfolio</h1>
 
 ## Table of Contents
 
@@ -27,18 +27,17 @@
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 ## Clone this repository
 ```bash
-git clone https://github.com/saadman-galib/windows-11.git
+git clone https://github.com/saadman-galib/myfolio.git
 ```
 
 
 ## Acknowledgements
 
-- [Steps to replicate a design with only HTML and CSS](#acknowledgements)
-- [Trying to make windows 11 ui clone](#acknowledgements)
+- Steps to replicate a design with only HTML and CSS
+
 
 
 ## Contact
 
 - GitHub [@saadman-galib](https://www.github.com/saadman-galib)
 - Twitter [@GalibSaadman](https://www.twitter.com/GalibSaadman)
-- Facebok Page [@saadman.codes](https://www.facebook.com/saadman.codes/)
